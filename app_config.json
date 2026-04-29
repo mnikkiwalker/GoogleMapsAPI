@@ -1,0 +1,6 @@
+{
+    "api":{
+        "baseURL": "https://maps.googleapis.com/maps/api/geocode/json",
+        "mapsKeyEnv": "MAPS_API_KEY"
+    }
+}
