@@ -17,4 +17,4 @@ postal_code = test_params.get("zip")
 
 
 response = client.geocode_address(address, postal_code)
-print(response)
+print(response["results"][0]["geometry"]["location"])
